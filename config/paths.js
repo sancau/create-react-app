@@ -24,7 +24,7 @@ var isInCreateReactAppSource = (
 );
 
 function resolve(relativePath) {
-  return path.resolve(relativePath);
+  return path.resolve(__dirname, relativePath);
 }
 
 if (isInCreateReactAppSource) {
